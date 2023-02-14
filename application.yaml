@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: argocd
 spec:
-  project: development
+  project: default
   source:
     repoURL: https://github.com/Abh29/mehill_inception_of_things.git
     targetRevision: HEAD
